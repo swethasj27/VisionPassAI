@@ -31,25 +31,6 @@ Computer Vision
 
 Facial Liveness Detection
 
-📁 Project Structure
-
-VisionPassAI/
-
-MAIN.py
-
-BLINKdetect.py
-
-HEADturnleft.py
-
-HEADturnright.py
-
-faceCENTER.py
-
-MOUTHopen.py
-
-README.md
-
-.gitignore
 
 ⚙️ How It Works
 
@@ -64,33 +45,6 @@ whether the user turned their head right
 whether the user opened their mouth
 
 Each challenge is processed only when it is the user's current required step.
-
-For example:
-Blink 
-
-↓ 
-
-Left Turn 
-
-↓
-
-Center
-
-↓
-
-Right Turn 
-
-↓ 
-
-Center 
-
-↓ 
-
-Mouth Open
-
-↓ 
-
-Attendance Verified
 
 🛡️ Liveness Detection
 The purpose of the challenge-based system is to make the verification process more resistant to simple spoofing attempts such as presenting a static photograph to the camera.
